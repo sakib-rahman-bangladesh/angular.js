@@ -10,13 +10,13 @@ config.sauceKey = process.env.SAUCE_ACCESS_KEY;
 config.multiCapabilities = [
   capabilitiesForSauceLabs({
     browserName: 'chrome',
-    platform: 'OS X 10.14',
-    version: '81'
+    platform: 'OS X 10.15',
+    version: '91'
   }),
   capabilitiesForSauceLabs({
     browserName: 'firefox',
-    platform: 'OS X 10.14',
-    version: '76'
+    platform: 'OS X 10.15',
+    version: '85'
   })
 ];
 
